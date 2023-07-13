@@ -6,8 +6,9 @@
   "scripts": {
 
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "render-postbuild": "cd frontend && yarn install && yarn build"
+    "render-postbuild": "cd frontend && yarn install && yarn build",
+    "start": "node app.js"
+    
   },
   "author": "",
   "license": "ISC",
