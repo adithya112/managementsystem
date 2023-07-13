@@ -1,0 +1,7 @@
+services:
+  - name: backend
+    buildCommand: "yarn render-postbuild"
+    # Other backend configuration options
+
+  - name: frontend
+    # Frontend configuration options
