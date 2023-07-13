@@ -32,12 +32,12 @@ function Signup() {
   };
 
   async function postDetails() {
-    console.log(process.env.REACT_APP_IMG_URL);
+    console.log("https://api.cloudinary.com/v1_1/dsxujytlz/image/upload");
     const data = new FormData()
     data.append("file", image)
-    data.append("upload_preset", process.env.REACT_APP_IMG_UPLOAD)
-    data.append("cloud_name", process.env.REACT_APP_IMG_CLOUD)
-    const res_a = await fetch(process.env.REACT_APP_IMG_URL , {
+    data.append("upload_preset", "AdithyaUpload")
+    data.append("cloud_name", "dsxujytlz")
+    const res_a = await fetch("https://api.cloudinary.com/v1_1/dsxujytlz/image/upload" , {
       method: "post",
       body: data
     })
