@@ -7,7 +7,7 @@
 
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "heroku-postbuild": "cd frontend && yarn install && yarn build"
+    "render-postbuild": "cd frontend && yarn install && yarn build"
   },
   "author": "",
   "license": "ISC",
