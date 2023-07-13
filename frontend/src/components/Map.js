@@ -4,7 +4,7 @@ import Geocode from "react-geocode";
 import Autocomplete from 'react-google-autocomplete';
 require('dotenv').config();
 
-Geocode.setApiKey(process.env.MAP_API);
+Geocode.setApiKey("AIzaSyCWCE3uE4FXMq8gx2rVYTDyozZy_30UoFE");
 Geocode.enableDebug();
 
 class Map extends Component {

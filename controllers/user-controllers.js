@@ -211,7 +211,7 @@ const resetPassword = (req,res,next) => {
               subject:"Password Reset",
               html: `
               <p>You requested for password reset</p>
-              <h4>Click in this <a href="https://we-dont-waste-food.herokuapp.com/reset-password/${token1}">link</a> to reset password</h4>
+              <h4>Click in this <a href="https://wastemanagementsystem.onrender.com//reset-password/${token1}">link</a> to reset password</h4>
               `
             })
             res.json({message:"check your email"})
