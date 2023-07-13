@@ -7,7 +7,7 @@ function Header() {
     return (
 
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">Food Waste Connect</Navbar.Brand>
+            <Navbar.Brand href="/">Extraa Food Management</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">

@@ -4,4 +4,5 @@ services:
     # Other backend configuration options
 
   - name: frontend
-    # Frontend configuration options
+    buildCommand: "yarn build"
+    # Other frontend configuration options
